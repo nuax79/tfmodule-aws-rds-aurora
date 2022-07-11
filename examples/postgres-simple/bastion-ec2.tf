@@ -39,4 +39,6 @@ module "bastion-ec2" {
 
   tags = merge(module.aurora.tags, {Name: "${local.name_prefix}-bastion-ec2"})
 
+
+
 }
