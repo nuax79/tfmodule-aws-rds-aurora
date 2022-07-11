@@ -8,8 +8,8 @@ resource "postgresql_role" "gitlab" {
   encrypted_password        = true
   inherit                   = true
   superuser                 = false
-  password                  = "gitlab!234"
-  # roles                     = [ "root" ]
+  password                  = "password"
+
 
   depends_on = [ module.aurora ]
 }

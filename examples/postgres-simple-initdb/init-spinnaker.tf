@@ -8,7 +8,7 @@ resource "postgresql_role" "spinnaker_cloud_driver" {
   encrypted_password        = true
   inherit                   = true
   superuser                 = false
-  password                  = "spinnaker!234"
+  password                  = "password"
 
   depends_on = [ module.aurora ]
 }
@@ -44,7 +44,7 @@ resource "postgresql_role" "spinnaker_cloud_front50" {
   encrypted_password        = true
   inherit                   = true
   superuser                 = false
-  password                  = "spinnaker!234"
+  password                  = "password"
 
   depends_on = [ module.aurora ]
 }
@@ -80,7 +80,7 @@ resource "postgresql_role" "spinnaker_orca" {
   encrypted_password        = true
   inherit                   = true
   superuser                 = false
-  password                  = "spinnaker!234"
+  password                  = "password"
 
   depends_on = [ module.aurora ]
 }

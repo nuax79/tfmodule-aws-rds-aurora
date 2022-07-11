@@ -1,21 +1,10 @@
-/*
-data "aws_instance" "gitlab_ec2" {
-  filter {
-    name = "tag:App"
-    values = [ "bastion-gitlab-container" ]
-  }
-}
-*/
-
 locals {
-  my_home_cidr = [ "211.196.197.138/32" ]
-  # bastion_prv_cidr = [ format("%s/32", data.aws_instance.gitlab_ec2.private_ip) ]
-  # bastion_pub_cidr = [ format("%s/32", data.aws_instance.gitlab_ec2.public_ip) ]
+  my_home_cidr = [ "111.111.111.138/32" ]
+
 }
 
 
 module "aurora" {
-  # source    = "git::https://github.com/bsp-dx/tfmodule-aws-vpc.git"
   source      = "../../"
 
   context                             = var.context
@@ -34,7 +23,7 @@ module "aurora" {
   publicly_accessible                 = true
   iam_database_authentication_enabled = true
   username                            = "root"
-  password                            = "bespin!234"
+  password                            = "password"
 
   apply_immediately                   = false
   skip_final_snapshot                 = true

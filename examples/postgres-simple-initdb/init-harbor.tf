@@ -9,7 +9,7 @@ resource "postgresql_role" "harbor" {
   encrypted_password        = true
   inherit                   = true
   superuser                 = false
-  password                  = "harbor!234"
+  password                  = "password"
   # roles                     = [ "root" ]
 
   depends_on = [ module.aurora ]

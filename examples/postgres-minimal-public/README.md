@@ -21,7 +21,7 @@ Build
 ----------
 
 ```bash
-git clone https://github.com/bsp-dx/tfmodule-aws-rds-aurora.git
+git clone https://github.com/nuax79/tfmodule-aws-rds-aurora.git
 
 cd tfmodule-aws-rds-aurora/examples/aurora-postgres
 

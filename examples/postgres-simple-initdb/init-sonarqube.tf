@@ -2,7 +2,7 @@
 
 resource "postgresql_role" "sonarqube" {
   name                      = "sonarqube"
-  password                  = "sonarqube!234"
+  password                  = "password"
   login                     = true
   create_database           = true
   create_role               = false

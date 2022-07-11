@@ -3,7 +3,6 @@ locals {
 }
 
 module "aurora" {
-  # source    = "git::https://github.com/bsp-dx/tfmodule-aws-vpc.git"
   source      = "../../"
 
   context                             = var.context
@@ -19,7 +18,7 @@ module "aurora" {
 
   iam_database_authentication_enabled = true
   username                            = "root"
-  password                            = "bespin!234"
+  password                            = "password"
 
   apply_immediately                   = false
   skip_final_snapshot                 = true

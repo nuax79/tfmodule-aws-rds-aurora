@@ -1,6 +1,6 @@
 module "vpc" {
 
-  source = "git::https://github.com/bsp-dx/tfmodule-aws-vpc.git"
+  source = "https://github.com/nuax79/tfmodule-aws-rds-aurora.git"
 
   context = var.context
   cidr    = "172.57.0.0/16"

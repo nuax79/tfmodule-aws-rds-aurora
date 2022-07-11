@@ -14,7 +14,7 @@ Prerequisite
 
 ```hcl
 locals {
-  my_public_cidr = [ "211.196.197.138/32" ]
+  my_public_cidr = [ "111.111.111.138/32" ]
 }
 ```
 
@@ -25,7 +25,7 @@ Build
 
 
 ```bash
-git clone https://github.com/bsp-dx/tfmodule-aws-rds-aurora.git
+git clone https://github.com/nuax79/tfmodule-aws-rds-aurora.git
 
 cd tfmodule-aws-rds-aurora/examples/aurora-postgres
 

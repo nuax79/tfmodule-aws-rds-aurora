@@ -1,15 +1,15 @@
 context = {
   aws_credentials_file    = "$HOME/.aws/credentials"
-  aws_profile             = "dxterra"
+  aws_profile             = "profile"
   aws_region              = "ap-northeast-2"
   region_alias            = "an2"
 
-  project                 = "adxbasic"
+  project                 = "project"
   environment             = "dev"
   env_alias               = "d"
-  owner                   = "devdataopsx_bgk@bespinglobal.com"
-  team_name               = "Devops Transformation"
-  team                    = "DX"
-  cost_center             = "2011081213"
-  domain                  = "devapp.shop"
+  owner                   = "aws@test.co.kr"
+  team_name               = "aws Transformation"
+  team                    = "aws"
+  cost_center             = "1111"
+  domain                  = "aws.co.kr"
 }
