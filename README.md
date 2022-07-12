@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-git clone https://gitlab.com/nua/tfmodule-aws-rds-aurora.git
+git clone https://github.com/nuax79/tfmodule-aws-rds-aurora.git
 ```
 
 ## RDS Aurora for Build

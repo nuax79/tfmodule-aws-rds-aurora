@@ -10,6 +10,6 @@ context = {
   owner                   = "aws@test.co.kr"
   team_name               = "aws Transformation"
   team                    = "aws"
-  cost_center             = "1111"
+  cost_center             = "1234566"
   domain                  = "aws.co.kr"
 }
